@@ -37,7 +37,7 @@ We used the normalized version as it also can be found [here] (http://moa.cms.wa
 This activity recognition task includes eighteen different activities performed by up to nine different subjects  and comprises ten hours of recorded data in total. The features are obtained from three inertial measurement units (IMU) and a heart rate monitor. The IMUs have a sampling rate of 100Hz and are located on the chest, the dominant wrist and ankle. 
 
 #### [MNIST-8M](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/mnist8m.bz2)
-Loosli et al. used pseudo-random deformations and translations to extended the well known MNIST database \cite{726791} to eight million instances. The ten handwritten digits are encoded in 782 binary features.
+Loosli et al. used pseudo-random deformations and translations to extended the well known MNIST database to eight million instances. The ten handwritten digits are encoded in 782 binary features.
 
 #### [HIGGS](https://archive.ics.uci.edu/ml/datasets/HIGGS)
 This dataset consists of eleven million simulated particle collisions. The goal of this binary classification problem is to distinguish between a signal process producing Higgs bosons and a background process. The data consist of low-level kinematic features recorded as well as some derived high-level indicators.

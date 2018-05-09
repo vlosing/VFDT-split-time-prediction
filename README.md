@@ -6,7 +6,7 @@
 - If you want to get only the modified files to integrate them into your local MOA version they are located [here](https://github.com/vlosing/VFDT-split-time-prediction/tree/master/trees)
 - Build MOA using an IDE such as IntelliJ
 
-## Using the local-split-time-prediction
+## Using the local split-time prediction
 Select the type of split-time-prediction you want to use in the properties of the Hoeffding-Tree and run your experiments.
 
 ## Datasets

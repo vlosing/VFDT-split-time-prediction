@@ -1,8 +1,8 @@
 # VFDT-split-time-prediction
 
 ## Installation:
-- Clone simply the adapted MOA git from here (https://github.com/vlosing/moa)
-- MOA provides several algorithms derived from the Hoeffding-Tree. Therefore, they are adapted as well to use the local split-time prediction. The main algorithms can be found in HoeffdingTree.java.
+- Clone simply the adapted MOA git from [here](https://github.com/vlosing/moa)
+- MOA provides several algorithms derived from the Hoeffding-Tree. Therefore, they are adapted as well to use the local split-time prediction. The main split-time prediction algorithms are located in HoeffdingTree.java.
 - If you want to get only the modified files to integrate them into your local MOA version they are located here XXVL
 -Build MOA using an IDE such as IntelliJ
 
@@ -13,7 +13,7 @@ Select the type of split-time-prediction you want to use in the properties of th
 
 ## Artificial:
 
-### [RBF] 
+### [RBF]
 Gaussian distributions with random initial positions, weights and standard deviations are generated in d-dimensional space. The weight controls the partitioning of the examples among the Gaussians.
 The parameters in MOA: 10 Million instances, 100 dimesions, 50 Gaussians, 50 classes, 100 centroids.
 
@@ -23,20 +23,20 @@ The parameters in MOA: 5 Million instances, 100 numeric dimesions, 100 nominal d
 
 ## Real-world:
 
-### [Forest Cover Type] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/covType) ([original source] (https://archive.ics.uci.edu/ml/datasets/Covertype))
+### [Forest Cover Type](https://github.com/vlosing/driftDatasets/tree/master/realWorld/covType) ([original source](https://archive.ics.uci.edu/ml/datasets/Covertype))
 Assigns cartographic variables such as elevation, slope, soil type, ... of 30 x 30 meter cells to different forest cover types. Only forests with minimal human-caused disturbances were used, so that resulting forest cover types are more a result of ecological processes. It is often used as a benchmark for drift algorithms. We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
 
-### [Poker Hand] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/poker) ([original source] (https://archive.ics.uci.edu/ml/datasets/Poker+Hand))
+### [Poker Hand](https://github.com/vlosing/driftDatasets/tree/master/realWorld/poker) ([original source](https://archive.ics.uci.edu/ml/datasets/Poker+Hand))
 One million randomly drawn poker hands are represented by five cards each encoded with its suit and rank. The class is the resulting poker hand itself such as one pair, full house and so forth.
 This dataset has in its original form no drift, since the poker hand definitions do not change and the instances are randomly generated. However, we used the version presented in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf), in which virtual drift is introduced via sorting the instances by rank and suit. Duplicate hands were also removed.
 We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
 
-### [Physical activity monitoring (PAMAP2)] (https://github.com/vlosing/datasets/pamap2) ([original source] (http://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)
+### [Physical activity monitoring (PAMAP2)](https://github.com/vlosing/datasets/pamap2) ([original source](http://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)
 This activity recognition task includes eighteen different activities performed by up to nine different subjects  and comprises ten hours of recorded data in total. The features are obtained from three inertial measurement units (IMU) and a heart rate monitor. The IMUs have a sampling rate of 100Hz and are located on the chest, the dominant wrist and ankle. 
 
-### [MNIST-8M] ([original source] (https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/mnist8m.bz2)
+### [MNIST-8M](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/mnist8m.bz2)
 Loosli et al. used pseudo-random deformations and translations to extended the well known MNIST database \cite{726791} to eight million instances. The ten handwritten digits are encoded in 782 binary features.
 
-### [HIGGS] ([original source] (https://archive.ics.uci.edu/ml/datasets/HIGGS)
+### [HIGGS](https://archive.ics.uci.edu/ml/datasets/HIGGS)
 This dataset consists of eleven million simulated particle collisions. The goal of this binary classification problem is to distinguish between a signal process producing Higgs bosons and a background process. The data consist of low-level kinematic features recorded as well as some derived high-level indicators.
 

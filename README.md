@@ -33,7 +33,7 @@ One million randomly drawn poker hands are represented by five cards each encode
 This dataset has in its original form no drift, since the poker hand definitions do not change and the instances are randomly generated. However, we used the version presented in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf), in which virtual drift is introduced via sorting the instances by rank and suit. Duplicate hands were also removed.
 We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
 
-#### [Physical activity monitoring (PAMAP2)](https://github.com/vlosing/datasets/pamap2) ([original source](http://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)
+#### [Physical activity monitoring (PAMAP2)](https://drive.google.com/open?id=1T3EH6y5JtudE7Ex43lR-vdHYnerby1D_) ([original source](http://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring)
 This activity recognition task includes eighteen different activities performed by up to nine different subjects  and comprises ten hours of recorded data in total. The features are obtained from three inertial measurement units (IMU) and a heart rate monitor. The IMUs have a sampling rate of 100Hz and are located on the chest, the dominant wrist and ankle. 
 
 #### [MNIST-8M](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass/mnist8m.bz2)

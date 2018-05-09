@@ -1,7 +1,7 @@
 # VFDT-split-time-prediction
 
 ## Installation:
-- Clone simply the MOA git from here XXVL
+- Clone simply the adapted MOA git from here (https://github.com/vlosing/moa)
 - MOA provides several algorithms derived from the Hoeffding-Tree. Therefore, they are adapted as well to use the local split-time prediction. The main algorithms can be found in HoeffdingTree.java.
 - If you want to get only the modified files to integrate them into your local MOA version they are located here XXVL
 -Build MOA using an IDE such as IntelliJ

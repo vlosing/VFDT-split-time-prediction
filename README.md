@@ -7,7 +7,7 @@
 - Build MOA using an IDE such as IntelliJ
 
 ## Using the local-split-time-prediction
-Select the type of split-time-prediction you want to use in the properties of the Hoeffding-Tree.
+Select the type of split-time-prediction you want to use in the properties of the Hoeffding-Tree and run your experiments.
 
 ## Datasets
 
